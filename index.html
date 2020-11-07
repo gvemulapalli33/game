@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Tic Tac Toe</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width;initial-scale=1"/>
+    </head>
+    <body>
+        <main class="container">
+            <section class="player1-status">
+                <h1 class="token">⭐</h1>
+                <h2 class="wins"></h2>
+                <section class="board-wins">
+
+                </section>
+            </section>
+            <section class="main-game">
+                <h1 class="turn"></h1>
+                <section class="game">
+                    <div id="1" class="child"></div>
+                    <div id="2" class="child"></div>
+                    <div id="3" class="child"></div>
+                    <div id="4" class="child"></div>
+                    <div id="5" class="child"></div>
+                    <div id="6" class="child"></div>
+                    <div id="7" class="child"></div>
+                    <div id="8" class="child"></div>
+                    <div id="9" class="child"></div> 
+                </section>
+            </section>
+            <section class="player2-status">
+                <h1 class="token">💖</h1>
+                <h2 class="wins"></h2>
+                <section class="board-wins">
+
+                </section>
+            </section>
+        </main>
+        <script type="module" src="./player.js"></script>
+        <script type="module" src="./game.js"></script>
+        <script type="module" src="./main.js"></script>
+    </body>
+</html>
